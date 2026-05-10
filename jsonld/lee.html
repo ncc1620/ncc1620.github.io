@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lee R. Grimwade — Identity Graph Node</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Canonical JSON-LD Identity Node -->
+  <script type="application/ld+json" src="jsonld/lee.jsonld"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0a0a0c;
+      color: #f5f5f5;
+      padding: 2.5rem 1.5rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .shell {
+      width: 100%;
+      max-width: 860px;
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 18px;
+      padding: 2.5rem;
+      box-shadow: 0 0 40px rgba(0,0,0,0.45);
+    }
+
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: 2.2rem;
+      font-weight: 650;
+      letter-spacing: 0.02em;
+    }
+
+    .alias {
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-bottom: 1.25rem;
+    }
+
+    .headline {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #e5e5e5;
+      margin-bottom: 2rem;
+    }
+
+    .dot {
+      opacity: 0.55;
+      padding: 0 0.35rem;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .section h2 {
+      font-size: 0.9rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 0.6rem;
+    }
+
+    .section p {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #e5e5e5;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.75rem;
+    }
+
+    .pill {
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid #333;
+      background: #181818;
+      font-size: 0.78rem;
+      white-space: nowrap;
+      color: #ddd;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #777;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="shell">
+    <h1>Lee R. Grimwade</h1>
+    <div class="alias">SmiLee · NCC1620 · The Zephyr Project · Wanderful Wizard Productions</div>
+
+    <div class="headline">
+      Patron & Creative Steward <span class="dot">·</span>
+      Documentarian, Videographer & Music Photographer <span class="dot">·</span>
+      Multi‑Instrumentalist & Hybrid Creative <span class="dot">·</span>
+      Set Builder & Dynamic Facilitator <span class="dot">·</span>
+      Founder: Blackbird Pie Media & Wanderful Wizard Productions
+    </div>
+
+    <section class="section">
+      <h2>About</h2>
+      <p>
+        Founder, creative steward, and interdisciplinary artist working across documentary practice,
+        worldbuilding, live‑music culture, and mythic identity design. This node represents the canonical
+        identity root for all creative houses, lineage branches, and JSON‑LD entities associated with
+        the broader Grimwade creative graph.
+      </p>
+
+      <div class="pill-row">
+        <div class="pill">Identity graph root</div>
+        <div class="pill">Creative lineage</div>
+        <div class="pill">Documentary practice</div>
+        <div class="pill">Worldbuilding</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Creative Houses</h2>
+      <p>
+        Blackbird Pie Media anchors the documentary and community‑centered work. Wanderful Wizard
+        Productions holds the mythic and conceptual frameworks. The Zephyr Project expresses the musical
+        lineage. All branches originate from this identity node.
+      </p>
+
+      <div class="pill-row">
+        <div class="pill">Blackbird Pie Media</div>
+        <div class="pill">Wanderful Wizard Productions</div>
+        <div class="pill">The Zephyr Project</div>
+        <div class="pill">YOU ARE HERE</div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Lee R. Grimwade
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
