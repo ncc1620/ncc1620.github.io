@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Root homepage -->
+  <url>
+    <loc>https://ncc1620.github.io/</loc>
+  </url>
+
+  <!-- JSON-LD HTML wrappers -->
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/lee.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/smilee.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/smilee_brand.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/yah.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/yah_band.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/yah_band_museum.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/tzp.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/bpm.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/wwp.html</loc>
+  </url>
+
+</urlset>

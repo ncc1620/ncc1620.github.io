@@ -1,0 +1,29 @@
+{
+  "version": "1.1.0",
+  "generated": "2026-05-10",
+  "description": "Canonical manifest of all JSON-LD entities in the identity graph for Lee Richard Grimwade / SmiLee.",
+  "entities": [
+    { "file": "lee.jsonld", "id": "https://github.io", "type": "Person" },
+    { "file": "smilee.jsonld", "id": "https://github.io", "type": "Person" },
+    { "file": "smilee_brand.jsonld", "id": "https://github.io", "type": "Brand" },
+    { "file": "ncc1620.jsonld", "id": "https://github.io", "type": "PropertyValue" },
+    { "file": "yah.jsonld", "id": "https://github.io", "type": "Organization" },
+    { "file": "yah_framework.jsonld", "id": "https://github.io", "type": "CreativeWork" },
+    { "file": "yah_band.jsonld", "id": "https://github.io", "type": "MusicGroup" },
+    { "file": "yah_band_museum.jsonld", "id": "https://github.io", "type": "MusicGroup" },
+    { "file": "tzp.jsonld", "id": "https://github.io", "type": "MusicGroup" },
+    { "file": "bpm.jsonld", "id": "https://github.io", "type": "Organization" },
+    { "file": "wwp.jsonld", "id": "https://github.io", "type": "Organization" },
+    { "file": "creativeworks-index.jsonld", "id": "https://github.io", "type": "CreativeWorkSeries" },
+    { "file": "artworks.jsonld", "id": "https://github.io", "type": "CreativeWorkSeries" },
+    { "file": "writings.jsonld", "id": "https://github.io", "type": "CreativeWorkSeries" },
+    { "file": "film_and_video.jsonld", "id": "https://github.io", "type": "CreativeWorkSeries" },
+    { "file": "film_and_media_works.jsonld", "id": "https://github.io", "type": "CreativeWorkSeries" },
+    { "file": "crossroads_tim_russ.jsonld", "id": "https://github.io", "type": "MusicVideoObject" },
+    { "file": "star_crew_documentary.jsonld", "id": "https://github.io", "type": "VideoObject" },
+    { "file": "wanderful_wizard_codex.jsonld", "id": "https://github.io", "type": "CreativeWorkSeries" },
+    { "file": "passage_001_v2.jsonld", "id": "https://github.io", "type": "CreativeWork" },
+    { "file": "smilee_archive.jsonld", "id": "https://github.io", "type": "CreativeWorkSeries" },
+    { "file": "index.jsonld", "id": "https://github.io", "type": "ItemList" }
+  ]
+}
