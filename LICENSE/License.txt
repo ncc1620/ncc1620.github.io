@@ -1,0 +1,11 @@
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this metadata and associated documentation files (the “Metadata”), to deal
+in the Metadata without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Metadata.
+
+THE METADATA IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
+
+Note: Creative works referenced by this metadata remain © their respective creators.
