@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://ncc1620.github.io/jsonld/yah_framework.jsonld",
+  "name": "YOU ARE HERE Creative Framework",
+  "description": "Philosophical and creative ethos derived from the YOU ARE HERE band, expanded and formalized by SmiLee.",
+  "creator": "https://ncc1620.github.io/jsonld/smilee.jsonld",
+  "isPartOf": "https://ncc1620.github.io/jsonld/yah.jsonld",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  }
+}

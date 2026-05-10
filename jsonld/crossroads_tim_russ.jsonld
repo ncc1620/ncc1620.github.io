@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://ncc1620.github.io/jsonld/crossroads_tim_russ.jsonld",
+  "name": "Crossroads (Tim Russ Crew)",
+  "creator": "https://ncc1620.github.io/jsonld/smilee.jsonld",
+  "isPartOf": "https://ncc1620.github.io/jsonld/film_and_media_works.jsonld",
+  "productionCompany": [
+    "https://ncc1620.github.io/jsonld/yah.jsonld",
+    "https://ncc1620.github.io/jsonld/wwp.jsonld"
+  ],
+  "publisher": "https://ncc1620.github.io/jsonld/bpm.jsonld",
+  "mentions": [
+    {
+      "@type": "Person",
+      "name": "Tim Russ"
+    },
+    {
+      "@type": "Person",
+      "name": "Tim Baker"
+    },
+    {
+      "@type": "Person",
+      "name": "Bill Burchell"
+    },
+    {
+      "@type": "Person",
+      "name": "Jim Martin"
+    }
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  }
+}

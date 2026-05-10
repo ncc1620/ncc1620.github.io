@@ -1,0 +1,198 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWorkSeries",
+  "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld",
+
+  "name": "Film & Video Works of SmiLee",
+  "description": "A unified collection of film, video, live performance recordings, music video work, documentary-style footage, and media contributions by Lee Richard Grimwade (SmiLee).",
+
+  "creator": {
+    "@type": "Person",
+    "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
+  },
+
+  "partOf": {
+    "@type": "CreativeWorkSeries",
+    "@id": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld"
+  },
+
+  "productionCompany": [
+    {
+      "@type": "Organization",
+      "@id": "https://ncc1620.github.io/jsonld/yah.jsonld"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ncc1620.github.io/jsonld/wwp.jsonld"
+    }
+  ],
+
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ncc1620.github.io/jsonld/bpm.jsonld"
+  },
+
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  },
+
+  "hasPart": [
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#film-contrib",
+      "name": "Film Contributions",
+      "description": "Collaborative media work and early‑production support.",
+      "hasPart": [
+        {
+          "@type": "Movie",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#SC-SUPPORT",
+          "name": "Star Crew (Informal Early‑Production Support)",
+          "description": "Behind‑the‑scenes assistance during early development and pre‑production of Manu Intiraymi’s independent sci‑fi film 'Star Crew'.",
+          "contributor": {
+            "@type": "Person",
+            "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#live-music",
+      "name": "Live Music Video Works",
+      "description": "Live performance videos and concert recordings.",
+      "hasPart": [
+        {
+          "@type": "MusicVideoObject",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#YAH-EOTR",
+          "name": "YOU ARE HERE — End of the Road Concert",
+          "description": "Live concert video capturing the final performance of YOU ARE HERE.",
+          "performer": {
+            "@type": "MusicGroup",
+            "@id": "https://ncc1620.github.io/jsonld/yah_band.jsonld"
+          }
+        },
+        {
+          "@type": "MusicVideoObject",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#CROSSROADS-TRC",
+          "name": "Crossroads – Tim Russ Crew (Live at Jeweled Universe)",
+          "description": "Live performance video featuring Tim Russ Crew."
+        }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#the-unclaimed",
+      "name": "Production Work for The Unclaimed",
+      "description": "Live performance videos filmed and edited by Lee R. Grimwade (SmiLee).",
+      "hasPart": [
+        {
+          "@type": "MusicVideoObject",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#UNCLAIMED-NIGHTMARES",
+          "name": "The Unclaimed – Nightmares of Allie (Live at the Redwood Bar)",
+          "description": "Live performance footage filmed and edited by SmiLee.",
+          "creator": {
+            "@type": "Person",
+            "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
+          },
+          "locationCreated": {
+            "@type": "Organization",
+            "name": "The Redwood Bar",
+            "address": "Los Angeles, CA"
+          }
+        },
+        {
+          "@type": "MusicVideoObject",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#UNCLAIMED-MILTON",
+          "name": "The Unclaimed – Milton the Monster (Live at the Redwood Bar)",
+          "description": "Live performance footage filmed and edited by SmiLee.",
+          "creator": {
+            "@type": "Person",
+            "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
+          },
+          "locationCreated": {
+            "@type": "Organization",
+            "name": "The Redwood Bar",
+            "address": "Los Angeles, CA"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#doc-generic",
+      "name": "Documentary & Media Work",
+      "description": "Documentary-style footage, behind-the-scenes material, and media fragments filmed or edited by SmiLee. This category does not specify subjects.",
+      "hasPart": []
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#music-video-work",
+      "name": "Music Video Work",
+      "description": "Music video recordings, live performance captures, and media work created for various artists and ensembles.",
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-TIMRUSS",
+          "name": "Tim Russ Crew — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-DOR",
+          "name": "Disciples of Redemption — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-UNCLAIMED",
+          "name": "The Unclaimed — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-SR",
+          "name": "The Sound Reasons — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-JRCG",
+          "name": "J.R.C.G. — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-TFS",
+          "name": "Tropical Fuck Storm — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-VECTORS",
+          "name": "The Vectors — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-AIMEE",
+          "name": "Aimee Lay — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-BRASS",
+          "name": "Brass Against — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-BRUSHPOPPER",
+          "name": "Brushpopper — Music Video Work"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#MVC-SMOOTHKIWI",
+          "name": "Smooth Kiwi — Music Video Work"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicGroup",
+  "@id": "https://ncc1620.github.io/jsonld/yah_band_museum.jsonld",
+
+  "name": "YOU ARE HERE",
+  "alternateName": [
+    "YOU ARE HERE (Band)",
+    "YAH (Band)"
+  ],
+
+  "description": "YOU ARE HERE was the expanded Zürich-based evolution of 'The Word', a band founded by John Rickard and Pascal Willi. The group represented a creative and philosophical extension of the original lineup, blending rock, soul, and community-driven performance ethos into a unified musical identity. YOU ARE HERE became known for its message of presence, connection, and shared humanity, expressed through collaborative musicianship and multi-vocal arrangements.",
+
+  "genre": [
+    "Alternative Rock",
+    "Zürich Indie Rock",
+    "Philosophical Rock",
+    "Soul-Infused Rock"
+  ],
+
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Zürich, Switzerland"
+  },
+
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "John Rickard"
+    },
+    {
+      "@type": "Person",
+      "name": "Pascal Willi"
+    }
+  ],
+
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Lineage",
+      "value": "Direct extension of the Zürich-based band 'The Word', founded by John Rickard and Pascal Willi."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "CreativeEvolution",
+      "value": "YOU ARE HERE expanded the original lineup of The Word into a larger ensemble with a broader vocal and instrumental palette."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Philosophy",
+      "value": "The band emphasized presence, community, and the unifying message of 'You Are Here' as a statement of shared human experience."
+    }
+  ],
+
+  "member": [
+    {
+      "@type": "Person",
+      "name": "John Rickard",
+      "roleName": "Lead Vocals"
+    },
+    {
+      "@type": "Person",
+      "name": "Pascal Willi",
+      "roleName": "Keyboards, Piano, Vocals"
+    },
+    {
+      "@type": "Person",
+      "name": "Ryan Metzer",
+      "roleName": "Guitar, Vocals"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ncc1620.github.io/jsonld/lee.jsonld",
+      "name": "Lee R. Grimwade (SmiLee)",
+      "roleName": "Bass, Vocals"
+    },
+    {
+      "@type": "Person",
+      "name": "Mike 'The Drummer with a Mic'",
+      "roleName": "Drums, Vocals"
+    }
+  ],
+
+  "event": [
+    {
+      "@type": "MusicEvent",
+      "name": "The End of The Road Concert",
+      "description": "A pivotal early performance featuring the expanded YOU ARE HERE lineup, blending members of The Word with new collaborators. Known for its high-energy multi-vocal arrangements and community-driven atmosphere.",
+      "location": {
+        "@type": "Place",
+        "name": "Outback Lodge",
+        "address": "Zürich, Switzerland"
+      },
+      "performer": "https://ncc1620.github.io/jsonld/yah_band_museum.jsonld"
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Zürich Rehearsal Sessions",
+      "description": "A series of intensive rehearsal-performances where the expanded ensemble refined its sound, vocal layering, and philosophical message. These sessions marked the true birth of YOU ARE HERE as a distinct musical identity.",
+      "location": {
+        "@type": "Place",
+        "name": "Zürich Studio Sessions",
+        "address": "Zürich, Switzerland"
+      },
+      "performer": "https://ncc1620.github.io/jsonld/yah_band_museum.jsonld"
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Community House Jam",
+      "description": "An informal but influential performance in a communal creative space, emphasizing the band's ethos of presence, connection, and shared humanity. Multi-vocal improvisation became a defining feature.",
+      "location": {
+        "@type": "Place",
+        "name": "Community Creative House",
+        "address": "Zürich, Switzerland"
+      },
+      "performer": "https://ncc1620.github.io/jsonld/yah_band_museum.jsonld"
+    }
+  ],
+
+  "isPartOf": [
+    "https://ncc1620.github.io/jsonld/index.jsonld",
+    "https://ncc1620.github.io/jsonld/yah.jsonld"
+  ],
+
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWorkSeries",
+  "@id": "https://ncc1620.github.io/jsonld/wanderful_wizard_codex.jsonld",
+  "name": "Wanderful Wizard Codex",
+  "creator": "https://ncc1620.github.io/jsonld/smilee.jsonld",
+  "productionCompany": [
+    "https://ncc1620.github.io/jsonld/yah.jsonld",
+    "https://ncc1620.github.io/jsonld/wwp.jsonld"
+  ],
+  "publisher": "https://ncc1620.github.io/jsonld/bpm.jsonld",
+  "hasPart": [
+    "https://ncc1620.github.io/jsonld/passage_001_v2.jsonld"
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  }
+}

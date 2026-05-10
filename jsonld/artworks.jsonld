@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWorkSeries",
+  "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld",
+
+  "name": "Artworks of SmiLee",
+  "description": "Drawings, paintings, illustrations, and visual artworks by Lee Richard Grimwade (SmiLee).",
+
+  "creator": "https://ncc1620.github.io/jsonld/smilee.jsonld",
+  "partOf": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld",
+
+  "hasPart": [
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-EARLY",
+      "name": "Early Artwork Series",
+      "identifier": "ART-EARLY",
+      "description": "Pen & ink drawings and early visual works created during the formative creative years.",
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-AW",
+          "name": "Against a Wall",
+          "identifier": "ART-AW",
+          "description": "Pen & ink illustration from the early artwork period."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-CD",
+          "name": "Church Door",
+          "identifier": "ART-CD",
+          "description": "Architectural line drawing from the early artwork series."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-WW",
+          "name": "Woman in the Womb",
+          "identifier": "ART-WW",
+          "description": "Surreal anatomical illustration exploring form and symbolism."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-VJ",
+          "name": "Vampire J",
+          "identifier": "ART-VJ",
+          "description": "Gothic portrait rendered in pen & ink."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-SAR",
+          "name": "Sarah",
+          "identifier": "ART-SAR",
+          "description": "Stylized figure drawing from the early series."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-NN",
+          "name": "Naughty Naughty",
+          "identifier": "ART-NN",
+          "description": "Playful character illustration from the early period."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-GS",
+          "name": "Gothic Spiral",
+          "identifier": "ART-GS",
+          "description": "Geometric gothic motif rendered in ink."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-SK8",
+          "name": "All I Wanna Do Is Sk8",
+          "identifier": "ART-SK8",
+          "description": "Skate-culture inspired illustration."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-FEA",
+          "name": "Feathers",
+          "identifier": "ART-FEA",
+          "description": "Textural pen & ink study."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-DC",
+          "name": "Dream Catcher",
+          "identifier": "ART-DC",
+          "description": "Symbolic linework inspired by dream motifs."
+        }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-LATER",
+      "name": "Later Artwork",
+      "identifier": "ART-LATER",
+      "description": "Oil paintings, mixed media, digital works, and other artworks created after the early period.",
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-SP",
+          "name": "Sunset Pines",
+          "identifier": "ART-SP",
+          "description": "A full‑color oil painting on canvas exploring the range of colors and lighting effects within a sunset, framed through silhouetted pines."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ncc1620.github.io/jsonld/artworks.jsonld#ART-GOTHAMBERG",
+          "name": "Gothamberg",
+          "identifier": "ART-GOTHAMBERG",
+          "description": "A large‑scale black‑oil gothic cityscape painted on canvas. The work was once offered 5000 Swiss francs in an unfinished state."
+        }
+      ]
+    }
+  ]
+}

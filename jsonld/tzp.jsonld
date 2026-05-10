@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicGroup",
+  "@id": "https://ncc1620.github.io/jsonld/tzp.jsonld",
+  "name": "The Zephyr Project",
+  "alternateName": "TZP",
+  "description": "Collaborative musical group founded and led by SmiLee within the YOU ARE HERE creative ecosystem.",
+  "member": [
+    "https://ncc1620.github.io/jsonld/lee.jsonld",
+    "https://ncc1620.github.io/jsonld/smilee.jsonld"
+  ],
+  "partOf": [
+    "https://ncc1620.github.io/jsonld/yah.jsonld"
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  },
+  "sameAs": [
+    "https://ncc1620.github.io/"
+  ]
+}

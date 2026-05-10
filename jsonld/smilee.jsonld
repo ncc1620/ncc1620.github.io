@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld",
+
+  "name": "SmiLee",
+
+  "alternateName": [
+    "SmiLee Grimwade",
+    "Capt. SmiLee",
+    "Captain SmiLee",
+    "Rev. SmiLee",
+    "The Wanderful Wizard",
+    "SmiLee Kalyāṇamitratā von Grimmigwaten"
+  ],
+
+  "description": "Creative persona, performer identity, and long-standing artistic signature of Lee R. Grimwade, in continuous use since 2001. The persona represents his creative identity across music, worldbuilding, media production, and interdisciplinary storytelling.",
+
+  "foundingDate": "1998",
+
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "PersonaOf",
+      "value": "https://ncc1620.github.io/jsonld/lee.jsonld"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ProvenanceNote",
+      "value": "Persona first used in creative works prior to 2001."
+    }
+  ],
+
+  "brand": "https://ncc1620.github.io/jsonld/smilee_brand.jsonld",
+
+  "sameAs": [
+    "https://www.instagram.com/ncc1620a",
+    "https://www.facebook.com/NCC1620",
+    "https://www.youtube.com/@ncc1620",
+    "https://github.com/ncc1620",
+    "https://web.archive.org/web/20011024004323/http://smileeonline.com/"
+  ],
+
+  "creator": "https://ncc1620.github.io/jsonld/lee.jsonld",
+
+  "creatorOf": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld",
+
+  "worksFor": [
+    "https://ncc1620.github.io/jsonld/yah.jsonld",
+    "https://ncc1620.github.io/jsonld/bpm.jsonld",
+    "https://ncc1620.github.io/jsonld/wwp.jsonld"
+  ],
+
+  "memberOf": [
+    "https://ncc1620.github.io/jsonld/yah.jsonld",
+    "https://ncc1620.github.io/jsonld/yah_band.jsonld",
+    "https://ncc1620.github.io/jsonld/tzp.jsonld"
+  ],
+
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  }
+}

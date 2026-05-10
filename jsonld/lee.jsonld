@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://ncc1620.github.io/jsonld/lee.jsonld",
+
+  "name": "Lee Richard Grimwade",
+  "givenName": "Lee",
+  "additionalName": "Richard",
+  "familyName": "Grimwade",
+
+  "alternateName": [
+    "Lee R. Grimwade",
+    "SmiLee"
+  ],
+
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  },
+
+  "brand": "https://ncc1620.github.io/jsonld/smilee.jsonld",
+
+  "memberOf": [
+    "https://ncc1620.github.io/jsonld/yah_band.jsonld",
+    "https://ncc1620.github.io/jsonld/tzp.jsonld"
+  ],
+
+  "worksFor": [
+    "https://ncc1620.github.io/jsonld/yah.jsonld",
+    "https://ncc1620.github.io/jsonld/bpm.jsonld",
+    "https://ncc1620.github.io/jsonld/wwp.jsonld"
+  ],
+
+  "sameAs": [
+    "https://github.com/ncc1620",
+    "https://www.youtube.com/@ncc1620",
+    "https://www.linkedin.com/in/leegrimwade",
+    "https://web.archive.org/web/20080309024935/http://www.smileeonline.com/"
+  ]
+}

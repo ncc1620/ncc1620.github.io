@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWorkSeries",
+  "@id": "https://ncc1620.github.io/jsonld/writings.jsonld",
+
+  "name": "Writings of SmiLee",
+  "description": "Books, poetry, codex passages, scripts, essays, and narrative worldbuilding by Lee Richard Grimwade (SmiLee).",
+
+  "creator": "https://ncc1620.github.io/jsonld/smilee.jsonld",
+  "partOf": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld",
+
+  "hasPart": [
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ncc1620.github.io/jsonld/poetry_collection.jsonld#poetry",
+      "name": "Poetry Collection",
+      "identifier": "POETRY",
+      "description": "Poetry written across multiple eras, curated into a unified collection."
+    },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://ncc1620.github.io/jsonld/writings.jsonld#WW-CODEX",
+      "name": "The Wanderful Wizard Codex",
+      "identifier": "WW-CODEX",
+      "description": "The core mythic codex of the Wanderful Wizard worldbuilding universe."
+    },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://ncc1620.github.io/jsonld/writings.jsonld#P001V2",
+      "name": "Passage 001 v2",
+      "identifier": "P001V2",
+      "description": "Refined version of Passage 001, the coastal wizard narrative beginning with 'Behold! ’Tis I, the Wombling Wizard of the West'."
+    },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://ncc1620.github.io/jsonld/writings.jsonld#YAH-BOOKLET",
+      "name": "YOU ARE HERE — End of the Road Booklet",
+      "identifier": "YAH-BOOKLET",
+      "description": "Booklet accompanying the End of the Road concert, containing lyrics, notes, and historical context."
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ncc1620.github.io/jsonld/writings.jsonld#WRITE-EARLY",
+      "name": "Early Writing Collection",
+      "identifier": "WRITE-EARLY",
+      "description": "Early writing experiments, drafts, and narrative fragments."
+    }
+  ]
+}

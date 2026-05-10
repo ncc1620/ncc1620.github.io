@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://ncc1620.github.io/jsonld/index.jsonld",
+  "name": "NCC1620 JSON-LD Identity Graph",
+  "description": "A modular linked-data graph representing the identities, organizations, creative works, and productions associated with Lee R. Grimwade and the persona SmiLee.",
+  "creator": "https://ncc1620.github.io/jsonld/lee.jsonld",
+  "hasPart": [
+    "https://ncc1620.github.io/jsonld/lee.jsonld",
+    "https://ncc1620.github.io/jsonld/smilee.jsonld",
+    "https://ncc1620.github.io/jsonld/yah.jsonld",
+    "https://ncc1620.github.io/jsonld/bpm.jsonld",
+    "https://ncc1620.github.io/jsonld/wwp.jsonld",
+    "https://ncc1620.github.io/jsonld/yah_band.jsonld",
+    "https://ncc1620.github.io/jsonld/tzp.jsonld",
+    "https://ncc1620.github.io/jsonld/wanderful_wizard_codex.jsonld",
+    "https://ncc1620.github.io/jsonld/passage_001_v2.jsonld",
+    "https://ncc1620.github.io/jsonld/film_and_media_works.jsonld",
+    "https://ncc1620.github.io/jsonld/crossroads_tim_russ.jsonld",
+    "https://ncc1620.github.io/jsonld/star_crew_documentary.jsonld",
+    "https://ncc1620.github.io/jsonld/smilee_archive.jsonld",
+    "https://ncc1620.github.io/jsonld/smilee_brand.jsonld",
+    "https://ncc1620.github.io/jsonld/yah_band_museum.jsonld"
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  }
+}

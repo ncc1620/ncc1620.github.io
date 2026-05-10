@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWorkSeries",
+  "@id": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld",
+
+  "name": "SmiLee CreativeWorks Index",
+  "description": "The complete, canonical index of all CreativeWorks by Lee Richard Grimwade (SmiLee), organized by category for clarity, modularity, and archival integrity.",
+
+  "creator": "https://ncc1620.github.io/jsonld/smilee.jsonld",
+
+  "hasPart": [
+
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Writings",
+      "identifier": "WRITINGS",
+      "url": "https://ncc1620.github.io/jsonld/writings.jsonld",
+      "description": "Books, poetry, scripts, codex passages, essays, and narrative worldbuilding.",
+      "hasPart": [
+        { "@id": "https://ncc1620.github.io/jsonld/poetry_collection.jsonld#poetry" },
+        { "name": "The Wanderful Wizard Codex", "identifier": "WW-CODEX" },
+        { "name": "Passage 001 v2", "identifier": "P001V2" },
+        { "name": "YOU ARE HERE — End of the Road Booklet", "identifier": "YAH-BOOKLET" },
+        { "name": "Early Writing Collection", "identifier": "WRITE-EARLY" }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Artworks",
+      "identifier": "ARTWORKS",
+      "url": "https://ncc1620.github.io/jsonld/artworks.jsonld",
+      "description": "Drawings, paintings, illustrations, and visual art series.",
+      "hasPart": [
+        { "name": "Against a Wall", "identifier": "ART-AW" },
+        { "name": "Church Door", "identifier": "ART-CD" },
+        { "name": "Woman in the Womb", "identifier": "ART-WW" },
+        { "name": "Vampire J", "identifier": "ART-VJ" },
+        { "name": "Sarah", "identifier": "ART-SAR" },
+        { "name": "Naughty Naughty", "identifier": "ART-NN" },
+        { "name": "Gothic Spiral", "identifier": "ART-GS" },
+        { "name": "All I Wanna Do Is Sk8", "identifier": "ART-SK8" },
+        { "name": "Feathers", "identifier": "ART-FEA" },
+        { "name": "Dream Catcher", "identifier": "ART-DC" },
+        { "name": "Sunset Pines", "identifier": "ART-SP" },
+        { "name": "Gothamberg", "identifier": "ART-GOTHAMBERG" }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Film & Video",
+      "identifier": "FILM-VIDEO",
+      "url": "https://ncc1620.github.io/jsonld/film_and_video.jsonld",
+      "description": "Film production, video work, live recordings, documentary-style footage, and media contributions.",
+      "hasPart": [
+        { "name": "Film Contributions", "identifier": "FILM-CONTRIB" },
+        { "name": "Live Music Video Works", "identifier": "FILM-LIVE-MUSIC" },
+        { "name": "Production Work for The Unclaimed", "identifier": "FILM-UNCLAIMED" },
+        { "name": "Documentary & Media Work", "identifier": "FILM-DOC-GENERIC" },
+        { "name": "Music Video Work", "identifier": "FILM-MUSIC-VIDEO-WORK" }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Music",
+      "identifier": "MUSIC",
+      "url": "https://ncc1620.github.io/jsonld/music.jsonld",
+      "description": "Recordings, performances, sound design, and musical personas.",
+      "hasPart": [
+        { "name": "The Zephyr Project (TZP)", "identifier": "TZP" },
+        { "name": "SmiLee Live Performances", "identifier": "MUSIC-LIVE" },
+        { "name": "Early Music Experiments", "identifier": "MUSIC-EARLY" }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Photography",
+      "identifier": "PHOTO",
+      "url": "https://ncc1620.github.io/jsonld/photography.jsonld",
+      "description": "Music photography, documentary photography, and early photographic work.",
+      "hasPart": [
+        { "name": "Early Photography", "identifier": "PHOTO-EARLY" },
+        { "name": "Music Photography Collection", "identifier": "PHOTO-MUSIC" }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Installations & Builds",
+      "identifier": "INSTALL",
+      "url": "https://ncc1620.github.io/jsonld/installations.jsonld",
+      "description": "Physical builds, museum installations, and immersive environments.",
+      "hasPart": [
+        {
+          "name": "Sci‑Fi World Museum Build",
+          "identifier": "SCIFI-MUSEUM",
+          "url": "https://ncc1620.github.io/jsonld/scifiworld-museum-build.jsonld"
+        },
+        {
+          "name": "Enterprise Bridge Build",
+          "identifier": "ENT-BRIDGE",
+          "url": "https://ncc1620.github.io/jsonld/enterprise-bridge-build.jsonld"
+        }
+      ]
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Archives",
+      "identifier": "ARCHIVE",
+      "url": "https://ncc1620.github.io/jsonld/smilee_archive.jsonld",
+      "description": "Historical artifacts, early works, digital archives, and legacy materials.",
+      "hasPart": [
+        { "name": "Early Artwork", "identifier": "ART-EARLY" },
+        { "name": "Early Writing", "identifier": "WRITE-EARLY" },
+        { "name": "Early Music Experiments", "identifier": "MUSIC-EARLY" },
+        { "name": "Guestbook Archive", "identifier": "GUESTBOOK" },
+        { "name": "Forum Posts Archive", "identifier": "FORUM" },
+        { "name": "Historical Website Archive", "identifier": "WEB-HIST" }
+      ]
+    }
+  ]
+}

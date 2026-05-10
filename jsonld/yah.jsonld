@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ncc1620.github.io/jsonld/yah.jsonld",
+
+  "name": "YOU ARE HERE",
+  "alternateName": [
+    "YAH",
+    "YOU ARE HERE (Creative Entity)"
+  ],
+
+  "description": "YOU ARE HERE is a creative framework and collaborative identity founded by Lee R. Grimwade (SmiLee). Originating after the Zürich-era band YOU ARE HERE, the Creative Entity expands the name into a multidisciplinary umbrella for music, worldbuilding, media production, and experiential storytelling.",
+
+  "founder": {
+    "@type": "Person",
+    "@id": "https://ncc1620.github.io/jsonld/lee.jsonld",
+    "name": "Lee R. Grimwade (SmiLee)"
+  },
+
+  "member": [
+    "https://ncc1620.github.io/jsonld/yah_band.jsonld"
+  ],
+
+  "hasPart": [
+    "https://ncc1620.github.io/jsonld/bpm.jsonld",
+    "https://ncc1620.github.io/jsonld/wwp.jsonld"
+  ],
+
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  }
+}

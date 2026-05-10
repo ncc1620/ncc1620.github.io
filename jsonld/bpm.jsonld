@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ncc1620.github.io/jsonld/bpm.jsonld",
+  "name": "Blackbird Pie Media",
+  "description": "Post-production studio specializing in editing, color, sound, mastering, and archival work.",
+  "parentOrganization": "https://ncc1620.github.io/jsonld/yah.jsonld",
+  "founder": "https://ncc1620.github.io/jsonld/smilee.jsonld",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Callsign",
+    "value": "NCC1620"
+  }
+}

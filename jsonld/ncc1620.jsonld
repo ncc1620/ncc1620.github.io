@@ -1,0 +1,8 @@
+{
+  "@context": "https://schema.org",
+  "@type": "PropertyValue",
+  "@id": "https://ncc1620.github.io/jsonld/ncc1620.jsonld",
+  "propertyID": "Callsign",
+  "value": "NCC1620",
+  "description": "Universal callsign used across the creative ecosystem of Lee R. Grimwade, SmiLee, YOU ARE HERE, BPM, WWP, and TZP."
+}

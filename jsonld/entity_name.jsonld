@@ -1,0 +1,16 @@
+2. Ensure the file includes:
+- `@context: "https://schema.org"`
+- `@id` using the canonical URL:
+  ```
+  https://ncc1620.github.io/jsonld/entity_name.jsonld
+  ```
+- A valid Schema.org `@type`
+3. Reference other entities using their `@id` values.
+4. Commit the `.jsonld` file.
+
+The GitHub Action will:
+- Validate the JSON‑LD
+- Generate the HTML wrapper
+- Update the sitemap
+
+## 🧪 Running Validation Locally

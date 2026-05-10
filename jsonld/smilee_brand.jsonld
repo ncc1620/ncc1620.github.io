@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Brand",
+  "@id": "https://ncc1620.github.io/jsonld/smilee_brand.jsonld",
+
+  "name": "SmiLee",
+  "description": "The SmiLee brand represents the creative signature, artistic identity, and multimedia output of Lee R. Grimwade, spanning music, worldbuilding, media production, and interdisciplinary storytelling.",
+
+  "logo": "https://ncc1620.github.io/assets/smilee-logo.png",
+
+  "brandOwner": "https://ncc1620.github.io/jsonld/lee.jsonld",
+"identifier": {
+  "@type": "PropertyValue",
+  "propertyID": "BrandTag",
+  "value": "NCC1620"
+},
+
+"sameAs": [
+  "https://www.instagram.com/ncc1620a",
+  "https://www.facebook.com/NCC1620",
+  "https://www.youtube.com/@ncc1620",
+  "https://github.com/ncc1620",
+  "https://web.archive.org/web/20011024004323/http://smileeonline.com/"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Thing",
+  "@id": "https://ncc1620.github.io/jsonld/ENTITY_NAME.jsonld",
+
+  "name": "Entity Name",
+  "description": "Short factual description of the entity.",
+
+  "additionalProperty": [],
+  "sameAs": [],
+  "identifier": []
+}
