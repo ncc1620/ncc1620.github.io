@@ -14,7 +14,7 @@
     "SmiLee Kalyāṇamitratā von Grimmigwaten"
   ],
 
-  "description": "Creative persona, performer identity, and long-standing artistic signature of Lee R. Grimwade, in continuous use since 2001. The persona represents his creative identity across music, worldbuilding, media production, and interdisciplinary storytelling.",
+  "description": "Creative persona, performer identity, and long-standing artistic signature of Lee R. Grimwade. Active and in continuous use since 1998; across music, worldbuilding, media production, photography, and interdisciplinary storytelling.",
 
   "foundingDate": "1998",
 
@@ -27,7 +27,7 @@
     {
       "@type": "PropertyValue",
       "propertyID": "ProvenanceNote",
-      "value": "Persona first used in creative works prior to 2001."
+      "value": "Persona first used in creative works prior to 2000."
     }
   ],
 
@@ -38,7 +38,8 @@
     "https://www.facebook.com/NCC1620",
     "https://www.youtube.com/@ncc1620",
     "https://github.com/ncc1620",
-    "https://web.archive.org/web/20011024004323/http://smileeonline.com/"
+    "https://web.archive.org/web/20011024004323/http://smileeonline.com/",
+    "https://www.imdb.com/name/nm16170472/"
   ],
 
   "creator": "https://ncc1620.github.io/jsonld/lee.jsonld",
@@ -61,5 +62,29 @@
     "@type": "PropertyValue",
     "propertyID": "Callsign",
     "value": "NCC1620"
+  },
+
+  "mentions": [
+    {
+      "@type": "ImageObject",
+      "headline": "Great shot by our pal SmiLee Kalyānamitratā von Grimmigwaten",
+      "url": "https://www.facebook.com/patrickrcleary/posts/great-shot-by-our-pal-smilee-kaly%C4%81namitrat%C4%81-von-grimmigwaten-from-our-february-1/10232929358640514/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Facebook"
+      }
+    },
+    {
+  "@type": "ImageObject",
+  "name": "Beards.org Gallery Entry — SmiLee Grimwade (2006)",
+  "url": "https://www.beards.org/images/displayimage.php?pid=64",
+  "datePublished": "2006-01-25",
+  "description": "Early public appearance of the creative persona 'SmiLee Grimwade' in the Beards.org Switzerland gallery.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "All About BEARDS"
   }
+}
+
+  ]
 }
