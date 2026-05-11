@@ -27,12 +27,7 @@
     {
       "@type": "PropertyValue",
       "propertyID": "ProvenanceNote",
-      "value": "Persona first used in creative works prior to 2000."
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "HistoricalWebsite",
-      "value": "The persona 'SmiLee' maintained the domain smileeonline.com in the early 2000s, preserved in the Internet Archive as an early web presence."
+      "value": "Persona first used in creative works prior to 2000, with early public documentation on smileeonline.com (archived 2001)."
     }
   ],
 
@@ -71,6 +66,17 @@
 
   "mentions": [
     {
+      "@type": "WebPage",
+      "name": "Archived Early Website — smileeonline.com",
+      "url": "https://web.archive.org/web/20011024004323/http://smileeonline.com/",
+      "datePublished": "2001",
+      "description": "Early public website for the creative persona 'SmiLee', predating later public appearances.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Internet Archive"
+      }
+    },
+    {
       "@type": "ImageObject",
       "headline": "Great shot by our pal SmiLee Kalyānamitratā von Grimmigwaten",
       "url": "https://www.facebook.com/patrickrcleary/posts/great-shot-by-our-pal-smilee-kaly%C4%81namitrat%C4%81-von-grimmigwaten-from-our-february-1/10232929358640514/",
@@ -88,14 +94,6 @@
       "publisher": {
         "@type": "Organization",
         "name": "All About BEARDS"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "name": "Archived Early Website — smileeonline.com",
-      "url": "https://web.archive.org/web/20011024004323/http://smileeonline.com/",
-      "about": {
-        "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
       }
     }
   ]
