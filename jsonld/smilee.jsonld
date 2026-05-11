@@ -28,6 +28,11 @@
       "@type": "PropertyValue",
       "propertyID": "ProvenanceNote",
       "value": "Persona first used in creative works prior to 2000."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "HistoricalWebsite",
+      "value": "The persona 'SmiLee' maintained the domain smileeonline.com in the early 2000s, preserved in the Internet Archive as an early web presence."
     }
   ],
 
@@ -75,16 +80,23 @@
       }
     },
     {
-  "@type": "ImageObject",
-  "name": "Beards.org Gallery Entry — SmiLee Grimwade (2006)",
-  "url": "https://www.beards.org/images/displayimage.php?pid=64",
-  "datePublished": "2006-01-25",
-  "description": "Early public appearance of the creative persona 'SmiLee Grimwade' in the Beards.org Switzerland gallery.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "All About BEARDS"
-  }
-}
-
+      "@type": "ImageObject",
+      "name": "Beards.org Gallery Entry — SmiLee Grimwade (2006)",
+      "url": "https://www.beards.org/images/displayimage.php?pid=64",
+      "datePublished": "2006-01-25",
+      "description": "Early public appearance of the creative persona 'SmiLee Grimwade' in the Beards.org Switzerland gallery.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "All About BEARDS"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "name": "Archived Early Website — smileeonline.com",
+      "url": "https://web.archive.org/web/20011024004323/http://smileeonline.com/",
+      "about": {
+        "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
+      }
+    }
   ]
 }
