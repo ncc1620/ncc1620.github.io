@@ -21,15 +21,15 @@
 
   "brand": "https://ncc1620.github.io/jsonld/smilee.jsonld",
 
-  "memberOf": [
-    "https://ncc1620.github.io/jsonld/yah_band.jsonld",
-    "https://ncc1620.github.io/jsonld/tzp.jsonld"
-  ],
-
   "worksFor": [
     "https://ncc1620.github.io/jsonld/yah.jsonld",
     "https://ncc1620.github.io/jsonld/bpm.jsonld",
     "https://ncc1620.github.io/jsonld/wwp.jsonld"
+  ],
+
+  "memberOf": [
+    "https://ncc1620.github.io/jsonld/yah_band.jsonld",
+    "https://ncc1620.github.io/jsonld/tzp.jsonld"
   ],
 
   "sameAs": [
@@ -38,6 +38,19 @@
     "https://www.linkedin.com/in/leegrimwade",
     "https://web.archive.org/web/20080309024935/http://www.smileeonline.com/"
   ],
-  "disambiguatingDescription": "Not associated with the UK YouTube family known as The Grimwade Family or with Timothy Lee Grimwade."
 
+  "disambiguatingDescription": "Not associated with the UK YouTube family known as The Grimwade Family or with Timothy Lee Grimwade.",
+
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "HistoricalAppearance",
+      "value": "The creative persona 'SmiLee Grimwade' appears in a 2006 Beards.org gallery entry, predating the public emergence of similarly named individuals."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "HistoricalWebsite",
+      "value": "The creative persona 'SmiLee' maintained the domain smileeonline.com in the early 2000s, establishing a documented online presence predating similarly named individuals."
+    }
+  ]
 }
