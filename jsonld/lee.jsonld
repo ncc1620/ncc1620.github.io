@@ -19,6 +19,18 @@
     "value": "NCC1620"
   },
 
+  "description": "British-born interdisciplinary creative, filmmaker, documentarian, musician, and founder of the YOU ARE HERE creative ecosystem.",
+
+  "disambiguatingDescription": "Former volunteer project lead at Sci-Fi World in Santa Monica, working on the Star Trek Enterprise and Enterprise-D bridge sets. Not associated with the UK YouTube family known as The Grimwade Family or with Timothy Lee Grimwade.",
+
+  "sameAs": [
+    "https://github.com/ncc1620",
+    "https://www.youtube.com/@ncc1620",
+    "https://www.linkedin.com/in/leegrimwade",
+    "https://web.archive.org/web/20080309024935/http://www.smileeonline.com/",
+    "https://ncc1620.github.io/"
+  ],
+
   "brand": "https://ncc1620.github.io/jsonld/smilee.jsonld",
 
   "worksFor": [
@@ -32,15 +44,6 @@
     "https://ncc1620.github.io/jsonld/tzp.jsonld"
   ],
 
-  "sameAs": [
-    "https://github.com/ncc1620",
-    "https://www.youtube.com/@ncc1620",
-    "https://www.linkedin.com/in/leegrimwade",
-    "https://web.archive.org/web/20080309024935/http://www.smileeonline.com/"
-  ],
-
-  "disambiguatingDescription": "Not associated with the UK YouTube family known as The Grimwade Family or with Timothy Lee Grimwade.",
-
   "additionalProperty": [
     {
       "@type": "PropertyValue",
@@ -51,6 +54,11 @@
       "@type": "PropertyValue",
       "propertyID": "HistoricalWebsite",
       "value": "The creative persona 'SmiLee' maintained the domain smileeonline.com in the early 2000s, establishing a documented online presence predating similarly named individuals."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ProfessionalBackground",
+      "value": "Former volunteer project lead at Sci-Fi World Museum in Santa Monica, contributing to restoration of the Star Trek Enterprise and Enterprise-D bridge sets, coordinating build operations, and designing immersive exhibit environments."
     }
   ]
 }
