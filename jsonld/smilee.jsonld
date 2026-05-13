@@ -2,8 +2,8 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld",
-
   "name": "SmiLee",
+  "url": "https://ncc1620.github.io/smilee.html",
 
   "alternateName": [
     "SmiLee Grimwade",
@@ -11,12 +11,28 @@
     "Captain SmiLee",
     "Rev. SmiLee",
     "The Wanderful Wizard",
-    "SmiLee Kalyāṇamitratā von Grimmigwaten"
+    "SmiLee Kalyāṇamitratā von Grimmigwaten",
+    "SmiLee Kalyānamitratā von Grimmigwaten",
+    "Lee R. Grimwade",
+    "Lee Richard Grimwade",
+    "NCC1620"
   ],
 
-  "description": "Creative persona, performer identity, and long-standing artistic signature of Lee R. Grimwade. Active and in continuous use since 1998; across music, worldbuilding, media production, photography, and interdisciplinary storytelling.",
+  "description": "Creative persona, performer identity, and long-standing artistic signature of Lee R. Grimwade. Active and in continuous use since 1998 across music, worldbuilding, media production, photography, documentary practice, live performance, and interdisciplinary storytelling.",
+
+  "disambiguatingDescription": "Creative persona of filmmaker and archivist Lee Richard Grimwade, active since the late 1990s within the YOU ARE HERE and Blackbird Pie Media ecosystems.",
 
   "foundingDate": "1998",
+
+  "jobTitle": [
+    "Creative Persona",
+    "Performer Identity",
+    "Musician",
+    "Filmmaker",
+    "Photographer",
+    "Archivist",
+    "Field Recordist"
+  ],
 
   "additionalProperty": [
     {
@@ -32,19 +48,22 @@
   ],
 
   "brand": "https://ncc1620.github.io/jsonld/smilee_brand.jsonld",
+  "creator": "https://ncc1620.github.io/jsonld/lee.jsonld",
+  "creatorOf": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld",
 
   "sameAs": [
-    "https://www.instagram.com/ncc1620a",
+    "https://www.instagram.com/ncc1620a/",
     "https://www.facebook.com/NCC1620",
     "https://www.youtube.com/@ncc1620",
-    "https://github.com/ncc1620",
-    "https://web.archive.org/web/20011024004323/http://smileeonline.com/",
-    "https://www.imdb.com/name/nm16170472/"
+    "https://www.imdb.com/name/nm16170472/",
+    "https://soundcloud.com/smileencc1620",
+
+    "https://www.instagram.com/westsacsmilee/",
+    "https://www.facebook.com/profile.php?id=100005055286480",
+    "https://www.facebook.com/SmiLeesaurus",
+
+    "https://web.archive.org/web/20011024004323/http://smileeonline.com/"
   ],
-
-  "creator": "https://ncc1620.github.io/jsonld/lee.jsonld",
-
-  "creatorOf": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld",
 
   "worksFor": [
     "https://ncc1620.github.io/jsonld/yah.jsonld",
@@ -63,6 +82,21 @@
     "propertyID": "Callsign",
     "value": "NCC1620"
   },
+
+  "knowsAbout": [
+    "Improvisation",
+    "Documentary practice",
+    "Live music and performance",
+    "Mythic storytelling",
+    "Photography",
+    "World-building",
+    "Symbolic frameworks",
+    "Community-centered creative practice",
+    "Field recording",
+    "Archival media",
+    "Vérité cinematography",
+    "Sound design"
+  ],
 
   "mentions": [
     {
