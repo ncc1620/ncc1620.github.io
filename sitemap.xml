@@ -3,33 +3,33 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://ncc1620.github.io/</loc>
+    <loc>https://ncc1620.github.io</loc>
   </url>
 
   <!-- HTML wrappers -->
   <url>
-    <loc>https://ncc1620.github.io/jsonld/lee.html</loc>
+    <loc>https://ncc1620.github.io/lee.html</loc>
   </url>
   <url>
-    <loc>https://ncc1620.github.io/jsonld/smilee.html</loc>
+    <loc>https://ncc1620.github.io/smilee.html</loc>
   </url>
   <url>
-    <loc>https://ncc1620.github.io/jsonld/smilee_brand.html</loc>
+    <loc>https://ncc1620.github.io/smilee_brand.html</loc>
   </url>
   <url>
-    <loc>https://ncc1620.github.io/jsonld/yah.html</loc>
+    <loc>https://ncc1620.github.io/yah.html</loc>
   </url>
   <url>
-    <loc>https://ncc1620.github.io/jsonld/yah_band.html</loc>
+    <loc>https://ncc1620.github.io/yah_band.html</loc>
   </url>
   <url>
-    <loc>https://ncc1620.github.io/jsonld/yah_band_museum.html</loc>
+    <loc>https://ncc1620.github.io/yah_band_museum.html</loc>
   </url>
   <url>
-    <loc>https://ncc1620.github.io/jsonld/tzp.html</loc>
+    <loc>https://ncc1620.github.io/tzp.html</loc>
   </url>
   <url>
-    <loc>https://ncc1620.github.io/jsonld/bpm.html</loc>
+    <loc>https://ncc1620.github.io/bpm.html</loc>
   </url>
   <url>
     <loc>https://ncc1620.github.io/jsonld/wwp.html</loc>
