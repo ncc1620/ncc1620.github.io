@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://ncc1620.github.io/</loc>
+  </url>
+
+  <!-- HTML Wrappers (Verified Root Files) -->
+  <url>
+    <loc>github.io</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/lee.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/smilee.html</loc>
+  </url>
+  <url>
+    <loc>github.io</loc>
+  </url>
+  <url>
+    <loc>github.io</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/yah.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/yah_band.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/yah_band_museum.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/tzp.html</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/bpm.html</loc>
+  </url>
+
+  
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/index.jsonld</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/lee.jsonld</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/smilee.jsonld</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/smilee_brand.jsonld</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/yah.jsonld</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/yah_band.jsonld</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/yah_band_museum.jsonld</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/tzp.jsonld</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/bpm.jsonld</loc>
+  </url>
+  <url>
+    <loc>https://ncc1620.github.io/jsonld/wwp.jsonld</loc>
+  </url>
+
+</urlset>
