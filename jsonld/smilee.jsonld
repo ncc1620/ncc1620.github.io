@@ -19,10 +19,7 @@
   ],
 
   "description": "Creative persona, performer identity, and long-standing artistic signature of Lee R. Grimwade. Active and in continuous use since 1998 across music, worldbuilding, media production, photography, documentary practice, live performance, and interdisciplinary storytelling.",
-
   "disambiguatingDescription": "Creative persona of filmmaker and archivist Lee Richard Grimwade, active since the late 1990s within the YOU ARE HERE and Blackbird Pie Media ecosystems.",
-
-  "foundingDate": "1998",
 
   "jobTitle": [
     "Creative Persona",
@@ -44,10 +41,17 @@
       "@type": "PropertyValue",
       "propertyID": "ProvenanceNote",
       "value": "Persona first used in creative works prior to 2000, with early public documentation on smileeonline.com (archived 2001)."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "PersonaInceptionYear",
+      "value": "1998"
     }
   ],
 
-  "brand": "https://ncc1620.github.io/jsonld/smilee_brand.jsonld",
+  "isRelatedTo": [
+    "https://ncc1620.github.io/jsonld/smilee_brand.jsonld"
+  ],
   "creator": "https://ncc1620.github.io/jsonld/lee.jsonld",
   "creatorOf": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld",
 
@@ -57,11 +61,9 @@
     "https://www.youtube.com/@ncc1620",
     "https://www.imdb.com/name/nm16170472/",
     "https://soundcloud.com/smileencc1620",
-
     "https://www.instagram.com/westsacsmilee/",
     "https://www.facebook.com/profile.php?id=100005055286480",
     "https://www.facebook.com/SmiLeesaurus",
-
     "https://web.archive.org/web/20011024004323/http://smileeonline.com/"
   ],
 
