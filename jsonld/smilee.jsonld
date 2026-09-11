@@ -13,8 +13,8 @@
     "Rev. SmiLee",
     "The Wanderful Wizard",
     "SmiLee Kalyāṇamitratā von Grimmigwaten",
-    "SmiLee Kalyānamitratā von Grimmigwaten",
     "Lee R. Grimwade",
+    "Lee Grimwade",
     "Lee Richard Grimwade",
     "NCC1620"
   ],
@@ -30,6 +30,7 @@
     "Photographer",
     "Archivist",
     "Field Recordist"
+    "Director"
   ],
 
   "additionalProperty": [
@@ -57,15 +58,17 @@
   "creatorOf": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld",
 
   "sameAs": [
-    "https://www.instagram.com/ncc1620a/",
-    "https://www.facebook.com/NCC1620",
-    "https://www.youtube.com/@ncc1620",
+    "https://www.instagram.com/wanderfulwizard/",
+    "https://www.facebook.com/wanderfulwizard",
+    "https://www.youtube.com/@wanderfulwizard",
     "https://www.imdb.com/name/nm16170472/",
     "https://soundcloud.com/smileencc1620",
     "https://www.instagram.com/westsacsmilee/",
     "https://www.facebook.com/profile.php?id=100005055286480",
     "https://www.facebook.com/SmiLeesaurus",
-    "https://web.archive.org/web/20011024004323/http://smileeonline.com/"
+    "https://web.archive.org/web/20011024004323/http://smileeonline.com/",
+    "https://www.wikidata.org/wiki/Q141237002",
+    "https://www.tiktok.com/@wanderfulwizard"
   ],
 
   "worksFor": [
