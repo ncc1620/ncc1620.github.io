@@ -92,6 +92,24 @@
       "hasPart": [
         {
           "@type": "MusicVideoObject",
+          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#UNCLAIMED-NTTHC",
+          "name": "The Unclaimed – Now The Time Has Come (Official Music Video)",
+          "description": "Official music video for 'Now The Time Has Come' by The Unclaimed, directed and edited by SmiLee.",
+          "director": {
+            "@type": "Person",
+            "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
+          },
+          "creator": {
+            "@type": "Person",
+            "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
+          },
+          "performer": {
+            "@type": "MusicGroup",
+            "name": "The Unclaimed"
+          }
+        },
+        {
+          "@type": "MusicVideoObject",
           "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#UNCLAIMED-NIGHTMARES",
           "name": "The Unclaimed – Nightmares of Allie (Live at the Redwood Bar)",
           "description": "Live performance footage filmed and edited by SmiLee.",
