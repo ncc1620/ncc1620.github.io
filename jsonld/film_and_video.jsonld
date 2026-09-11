@@ -12,7 +12,7 @@
   },
   
   "brand": {
-    "@type": "Person",
+    "@type": "Brand",
     "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
   },
   
