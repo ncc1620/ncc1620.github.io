@@ -10,7 +10,12 @@
     "@type": "Person",
     "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
   },
-
+  
+  "brand": {
+    "@type": "Person",
+    "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
+  },
+  
   "partOf": {
     "@type": "CreativeWorkSeries",
     "@id": "https://ncc1620.github.io/jsonld/creativeworks-index.jsonld"
