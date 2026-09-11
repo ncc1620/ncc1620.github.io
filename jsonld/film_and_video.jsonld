@@ -72,19 +72,13 @@
       "hasPart": [
         {
           "@type": "MusicVideoObject",
-          "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#YAH-EOTR",
-          "name": "YOU ARE HERE — End of the Road Concert",
-          "description": "Live concert video capturing the final performance of YOU ARE HERE.",
-          "performer": {
-            "@type": "MusicGroup",
-            "@id": "https://ncc1620.github.io/jsonld/yah_band.jsonld"
-          }
-        },
-        {
-          "@type": "MusicVideoObject",
           "@id": "https://ncc1620.github.io/jsonld/film_and_video.jsonld#CROSSROADS-TRC",
           "name": "Crossroads – Tim Russ Crew (Live at Jeweled Universe)",
-          "description": "Live performance video featuring Tim Russ Crew."
+          "description": "Live performance video featuring Tim Russ Crew.",
+          "director": {
+            "@type": "Person",
+            "@id": "https://ncc1620.github.io/jsonld/smilee.jsonld"
+          }
         }
       ]
     },
